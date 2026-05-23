@@ -1,0 +1,29 @@
+# Raw data (too large for GitHub)
+data/raw/
+data/interim/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Environment variables / secrets
+.env
+
+# Mac system files
+.DS_Store
+
+# Model artifacts (too large for GitHub)
+models/*.pkl
+models/*.pt
+models/*.joblib
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
